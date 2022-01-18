@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- FONTS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  	<link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+  	<!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  	<link rel="stylesheet" type="text/css" href="../../webroot/css/style.css">
+  	<link rel="stylesheet" type="text/css" href="../../webroot/css/weather-icons.min.css">
+  	<link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet">
+  	<link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet" />
+  	<link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet" />
+
+  	<!-- FAVICON –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  	<link rel="icon" type="image/jpeg" href="/webroot/img/favicon.jpg" />
+
+  	<!-- META –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Tu as toujours rêvé de prévoir le futur ? Bienvenue à l'École Nationale de la Météorologie ! Pendant notre formation, tu pourras étudier la physique de l'atmosphère, la prévision du temps et l'évolution du climat. L'école est située sur le site de Météo-France au sud-ouest de Toulouse : c'est donc entouré du centre de recherche et des prévisionnistes du centre national de prévision que nous sommes formés !">
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://ecole-meteo.fr/">
+	<meta property="og:title" content="{title} | École Nationale de la Météorologie">
+	<meta property="og:description" content="Tu as toujours rêvé de prévoir le futur ? Bienvenue à l'École Nationale de la Météorologie ! Pendant notre formation, tu pourras étudier la physique de l'atmosphère, la prévision du temps et l'évolution du climat. L'école est située sur le site de Météo-France au sud-ouest de Toulouse : c'est donc entouré du centre de recherche et des prévisionnistes du centre national de prévision que nous sommes formés !">
+	<meta property="og:image" content="/webroot/img/ecole_hall.jpg">
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://ecole-meteo.fr/">
+	<meta property="twitter:title" content="{title} | École Nationale de la Météorologie">
+	<meta property="twitter:description" content="Tu as toujours rêvé de prévoir le futur ? Bienvenue à l'École Nationale de la Météorologie ! Pendant notre formation, tu pourras étudier la physique de l'atmosphère, la prévision du temps et l'évolution du climat. L'école est située sur le site de Météo-France au sud-ouest de Toulouse : c'est donc entouré du centre de recherche et des prévisionnistes du centre national de prévision que nous sommes formés !">
+	<meta property="twitter:image" content="/webroot/img/ecole_hall.jpg">
+
+    <!-- TITLE –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <title>{title} | École Nationale de la Météorologie</title>
+</head>
+<body>
+	<header>
+		<a href="/">
+			<img id="logo_enm" alt="logo_enm" src="../../webroot/img/logo_enm.png">
+			<div id="title">
+				<h1>École Nationale</h1>
+				<h2>de la <span class="primary-color" style="font-size: 50px;">Météorologie</span></h2>
+			</div>
+			<img id="logo_aeenm" alt="logo_aeenm" src="../../webroot/img/logo_aeenm.jpg">
+		</a>
+	</header>
+	<nav>
+		<ul>
+			<li class="onhover-effect">
+				<a href="/campus/site">
+					CAMPUS
+				</a>
+				<div class="onhover-menu">
+					<div class="row">
+						<div class="center-cropped-menu col-3" style="background-image: url('/webroot/img/ecole_enm.jpg');"></div>
+						<div class="col-3 first-text-column">
+							<h2>En bref</h2>
+							<a href="/campus/foyer">Le foyer</a>
+							<a href="/campus/residences">Les résidences</a>
+							<a href="/campus/eurest">Le self : Eurest</a>
+							<a href="/campus/rio">Le Rio</a>
+						</div>
+						<div class="col-3">
+							<h2>La météopole</h2>
+							<a href="/campus/site">Le site de Météo-France</a>
+							<a href="/campus/toulouse">Vivre à Toulouse</a>
+						</div>
+						<div class="col-3">
+							<h2>Notre adresse</h2>
+							<p> École Nationale de la Météorologie <br />
+								42 Avenue Gaspard Coriolis <br />
+								31057 Toulouse Cedex 1<br />
+								FRANCE</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="onhover-effect">
+				<a href="/scolarite">
+					SCOLARITÉ
+				</a>
+				<div class="onhover-menu">
+					<div class="row">
+						<div class="center-cropped-menu col-3" style="background-image: url('/webroot/img/synopsis_1.jpg');"></div>
+						<div class="col-3 first-text-column">
+							<h2>Pour tout savoir</h2>
+							<a href="/scolarite/civil-fonctio">La différence civil/fonctionnaire</a>
+							<a href="/scolarite/1A">La première année</a>
+							<a href="/scolarite/2A">La deuxième année</a>
+							<a href="/scolarite/3A">La troisième année</a>
+							<a href="https://www.enm-alumni.fr">Et après ?</a>
+						</div>
+						<div class="col-3">
+							<h2>Les passages importants</h2>
+							<a href="/scolarite/stages">Les stages</a>
+							<a href="/scolarite/projet-EMI">Le projet EMI</a>
+							<a href="/scolarite/S9">Le semestre 9</a>
+							<a href="https://global-exam.com/blog/fr/examens/toefl-itp/">Le TOEFL</a>
+						</div>
+						<div class="col-3">
+							<h2>Où trouver + d'infos ?</h2>
+							<p>Vous pouvez télécharger le <a href="/webroot/src/SyllabusIENM2020.pdf">Syllabus</a>.</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="onhover-effect">
+				<a href="/vie-associative/annee">
+					VIE ASSOCIATIVE
+				</a>
+				<div class="onhover-menu">
+					<div class="row">
+						<div class="center-cropped-menu col-3" style="background-image: url('/webroot/img/fete.jpg');"></div>
+						<div class="col-3 first-text-column">
+							<h2>En bref</h2>
+							<a href="/vie-associative/buro">Le Burô</a>
+							<a href="/vie-associative/bar">L'IsoBar</a>
+							<a href="/vie-associative/clubs">Les clubs</a>
+							<a href="/campus/foyer">Le foyer des élèves</a>
+							<!-- <a href="">Les soirées du jeudi</a> -->
+						</div>
+						<div class="col-3">
+							<h2>Les événements</h2>
+							<a href="/vie-associative/integration">L'intégration</a>
+							<a href="/vie-associative/annee">Une année à l'ENM</a>
+							<!-- <a href="">Le week-end d'intégration (WEI)</a>
+							<a href="">Le week-end ski (WES)</a>
+							<a href="">Le week-end montagne (WEM)</a>
+							<a href="">Le week-end de désintégration (WED)</a>
+							<a href="">La Course Croisière Edhec (CCE)</a>
+							<a href="">Le Massilia Sun Ball (MSB)</a> -->
+						</div>
+						<div class="center-cropped-menu col-3" style="background-image: url('/webroot/img/st_valentin.jpg');"></div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<a href="https://meteo-media.club">
+					SITE INTERNE
+				</a>
+			</li>
+			<li style="float: right;" class="onhover-effect">
+				<a href="">
+					VOUS ÊTES
+				</a>
+				<div class="onhover-menu menu-you-are">
+					<div class="row">
+						<div class="center-cropped-menu col-8" style="background-image: url('https://images.unsplash.com/photo-1465447142348-e9952c393450?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aW50ZXJzZWN0aW9ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');"></div>
+						<div class="col-4">
+							<a href="/vous-etes/admis-prochaine-rentree">Admis.e à l'ENM à la prochaine rentrée !</a>
+							<a href="/vous-etes/cpge">En Classe Préparatoire aux Grandes Écoles</a>
+							<a href="/vous-etes/post-bac">Élève en post-BAC ailleurs qu'en CPGE</a>
+							<a href="/vous-etes/lyceen">Lycéen.ne</a>
+							<!-- <a href="/vous-etes/already-working">Éleve à l'ENM</a> -->
+							<a href="/vous-etes/already-working">Non fonctionnaire</a>
+							<a href="https://fr.wikipedia.org/wiki/%C3%89cole_nationale_de_la_m%C3%A9t%C3%A9orologie">Récalcitrant à utiliser notre site internet</a>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	<hr />
+	<main>
+    	{content}
+    </main>
+    <footer>
+    	<div class="container">
+            <div class="row">
+                <div class="col-sm-4 col-md-2 item">
+                    <h3>Naviguer</h3>
+                    <ul>
+                        <li><a href="/campus/site">Campus</a></li>
+                        <li><a href="/scolarite">Scolarité</a></li>
+                        <li><a href="/vie-associative/annee">Vie associative</a></li>
+                        <li><a href="https://meteo-media.club">Site interne</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-2 item">
+                    <h3>Liens utiles</h3>
+                    <ul>
+                        <li><a href="https://www.enm-alumni.fr">ENM Alumni</a></li>
+                        <li><a href="http://www.enm-toulouse.fr/">Site officiel de l'école</a></li>
+                        <li><a href="https://meteofrance.com/">Météo-France</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 col-md-2 item">
+                    <h3>Sur les réseaux</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/enmfrance">Facebook de l'école</a></li>
+                        <li><a href="https://www.facebook.com/AEENMmeteo">Facebook de l'AE</a></li>
+                        <li><a href="https://www.instagram.com/buroenm/">Instagram de l'AE</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCCHnvFZmEjUtL1fdco_-8mg">Le Show AEENM</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Pour la petite histoire</h3>
+                    <p>L'École Nationale de la Météorologie a été créée en 1948. D'abord implantée à Paris et au Fort de Saint-Cyr, elle déménage à Toulouse en 1982 pour être au plus proche du berceau de l'aviation civile. Depuis 2010, l'ENM ne cesse de former un nombre croissant d'ingénieurs en météorologie face à un besoin en forte hausse.</p>
+                </div>
+                <div class="col item social">
+                	<a href="https://www.facebook.com/enmfrance"><i class="icon ion-social-facebook"></i></a>
+                	<a href="https://www.youtube.com/channel/UCCHnvFZmEjUtL1fdco_-8mg"><i class="icon ion-social-youtube"></i></a>
+                	<a href="https://www.instagram.com/buroenm/"><i class="icon ion-social-instagram"></i></a>
+                </div>
+            </div>
+            <p class="copyright">Association Étudiante de l'École Nationale de la Météorologie & Météo Média Club © 2021</p>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/webroot/js/script.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+</body>
+</html>
